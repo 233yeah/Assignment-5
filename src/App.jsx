@@ -1,13 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HeaderView from "./components/headerView";
+import HeaderView from "./components/HeaderView";
 import './App.css'
 
 function App() {
 
   return (
-    <>
-    <HeaderView />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element ={<HeaderView/>}/>
+      </Routes>
+    </BrowserRouter>
+
   )
 }
 
