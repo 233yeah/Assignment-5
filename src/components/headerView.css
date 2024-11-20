@@ -18,8 +18,7 @@
     height: 95px;
     margin-left: 0;
     margin-right: 0;
-    padding: 0;
-
+    padding-bottom: 10px;
 }
 .buttons {
     position: absolute;
@@ -36,4 +35,6 @@ button {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 12px;}
+    border-radius: 12px;
+    margin-left: 5px;
+}

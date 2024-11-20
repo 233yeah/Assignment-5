@@ -1,4 +1,4 @@
-import "./headerView.css";
+import "./HeaderView.css";
 function headerView() {
     return (
         <div className="top-bar">
