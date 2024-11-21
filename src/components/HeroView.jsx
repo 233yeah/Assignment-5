@@ -1,6 +1,5 @@
 import "./HeroView.css";
 import HeroImage from "../assets/image/heroSection.jpg";
-import '../assets/font/fonts.css';
 
 function HeroView() {
 
