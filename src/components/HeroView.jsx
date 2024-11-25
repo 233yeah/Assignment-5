@@ -6,7 +6,7 @@ function HeroView() {
     return (
         
         <div className="top-bar">
-               <div class="hero">
+               <div className="hero">
         <img className="hero-image" src={HeroImage}/>
         <div className="hero-text"> <label>Free Movies at Your Fingertips</label></div>
          </div>
