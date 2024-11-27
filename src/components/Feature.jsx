@@ -20,35 +20,29 @@ function Feature() {
         })()
     }, [])
 
-    return(
+    return (
         <div className="feature">
-
-        <p2>Movies for rent($2.99 a month)</p2>
-        <div className="feature-flex">
-          
-            <img
-                className="feature-image"
-                src={`https://image.tmdb.org/t/p/w500${image1}`}
-            /> 
-            
-            <img
-                className="feature-image"
-                src={`https://image.tmdb.org/t/p/w500${image2}`}
-            /> 
-            
-            <img
-                className="feature-image"
-                src={`https://image.tmdb.org/t/p/w500${image3}`}
-            /> 
-            
-            <img
-                className="feature-image"
-                src={`https://image.tmdb.org/t/p/w500${image4}`}
-            /> 
+            <p2>Movies for rent($2.99 a month)</p2>
+            <div className="feature-flex">
+                <img
+                    className="feature-image"
+                    src={`https://image.tmdb.org/t/p/w500${image1}`}
+                />
+                <img
+                    className="feature-image"
+                    src={`https://image.tmdb.org/t/p/w500${image2}`}
+                />
+                <img
+                    className="feature-image"
+                    src={`https://image.tmdb.org/t/p/w500${image3}`}
+                />
+                <img
+                    className="feature-image"
+                    src={`https://image.tmdb.org/t/p/w500${image4}`}
+                />
+            </div>
         </div>
-    </div>
 
     )
-    }
-    export default Feature;
-        
+}
+export default Feature;
