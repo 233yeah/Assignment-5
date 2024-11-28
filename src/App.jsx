@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-/* import HeaderView from "./components/HeaderView";
-import HeroView from "./components/HeroView"; */
 import HomeView from "./views/HomeView";
+import LoginView from "./views/LoginView";
 
 import './App.css'
 
@@ -9,10 +8,8 @@ function App() {
 
   return (
     <>
-      <HomeView />
-    {/*   <HeroView />
-      <FeatureView />
- */}
+ {/*      <HomeView /> */}
+ <LoginView/>
     </>
 
   )

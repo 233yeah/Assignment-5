@@ -1,19 +1,20 @@
 import "./HomeView.css";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Feature from "../components/Feature";
+import Login from "../components/Login";
 import Footer from "../components/Footer";
 
-function HomeView() {
+
+function LoginView() {
+  
 
     return (
         <div>
             <Header />
-            <Hero />
-            <Feature />
+            <Login />
             <Footer />
         </div>
+
     )
 }
 
-export default HomeView;
+export default LoginView;
