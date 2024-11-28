@@ -19,12 +19,14 @@
         transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 
-    h1 {
+    h2 {
+        margin-left: 46%;
         padding-top: 30px;
         font-size: 2rem;
         margin-bottom: 30px;
         color: #ff0000;
         font-weight: 600;
+        font-family: 'Roboto', sans-serif;
     }
 
     .register-form {

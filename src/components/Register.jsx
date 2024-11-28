@@ -9,7 +9,7 @@ function Register() {
     return (
         
         <div className="register-container">
-              <h1>Join Us!</h1>
+              <h2>Join Us!</h2>
               <form className="register-form" onSubmit={(event) => {login(event) }}>
                 <label className="register-text">First Name:</label>
                 <input type="text" className="register-inputs" value={email} onChange={(event) => { setEmail(event.target.value) }} required />

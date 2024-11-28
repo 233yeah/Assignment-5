@@ -1,0 +1,12 @@
+.genre-container {
+    background-color: rgba(0, 0, 0, 0.932);
+    width: 15%;
+    height: 80vh;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.699);
+}
+
+.genre-list {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
