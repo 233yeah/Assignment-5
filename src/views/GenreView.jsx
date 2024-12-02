@@ -6,7 +6,7 @@ import "./GenreView.css";
 function GenreView() {
     const [movies, setMovies] = useState([]);
     const { id } = useParams();
-    const [page, setPage] = useState(1);  
+    const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
     const navigate = useNavigate();
     const genreNames = {
@@ -39,19 +39,19 @@ function GenreView() {
 
     function nextPage() {
         if (page < totalPages) {
-            setPage(page + 1); 
+            setPage(page + 1);
         }
     }
 
     function previousPage() {
         if (page != 0) {
-            setPage(page - 1);  
+            setPage(page - 1);
         }
     }
 
     function loadMovie(id) {
         navigate(`/movie/details/${id}`);
-      }
+    }
 
     return (
         <div className="genre-list-container">

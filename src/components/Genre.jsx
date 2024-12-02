@@ -8,11 +8,11 @@ function Genre() {
 
   function genrePage(id) {
     navigate(`genre/${id}`);
-}
+  }
 
   const handleClick = (item) => {
     setId(item.id);
-    genrePage(item.id) 
+    genrePage(item.id)
   };
 
   const genres = [

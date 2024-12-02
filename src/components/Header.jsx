@@ -18,7 +18,7 @@ function Header() {
 
     return (
         <div className="tb-item top-bar">
-            <h  className="logo " onClick={homePage}>WacFlix</h>
+            <h className="logo " onClick={homePage}>WacFlix</h>
             <div className="buttons">
                 <button onClick={() => { registerPage() }}> Sign Up</button>
                 <button onClick={() => { loginPage() }}>Sign In</button>
