@@ -5,17 +5,16 @@ import { useNavigate } from "react-router-dom";
 function Login() {
     const [email, setEmail] = useState("");  
     const [password, setPassword] = useState(""); 
-
     const navigate = useNavigate();
 
     function genrePage() {
-        navigate(`/genre`);
+        navigate(`/movie/genre/28`);
     }
    
     return (
         
         <div className="login-container">
-              <h1>Welcome Back</h1>
+              <h className="login-title">Welcome Back</h>
               <form className="login-form" onSubmit={(event) => {login(event) }}>
                 <label className="login-text">Email:</label>
                 <input type="text" className="login-inputs" value={email} onChange={(event) => { setEmail(event.target.value) }} required />
