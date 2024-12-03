@@ -70,6 +70,7 @@
     font-size: 1.5rem;
     color: #ff0000;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Grid for Trailers */
@@ -87,6 +88,7 @@
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .trailer-tile:hover {
