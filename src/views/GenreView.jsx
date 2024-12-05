@@ -37,6 +37,10 @@ function GenreView() {
         getMovies();
     }, [id, page]);
 
+    useEffect(() => {
+        setPage(1);
+    }, [id]);
+
     function nextPage() {
         if (page < totalPages) {
             setPage(page + 1);
@@ -56,16 +60,6 @@ function GenreView() {
     return (
         <div className="genre-list-container">
             <p className="page-title">Page: {page}/{totalPages} Current Genre:{genreName}</p>
-            {page < totalPages && (
-                <div className="genre-buttons">
-                    <button className="page-button" onClick={previousPage}>
-                        Previous Page
-                    </button>
-                    <button className="page-button" onClick={nextPage}>
-                        Next Page
-                    </button>
-                </div>
-            )}
             <div className="movie-list">
                 {movies.map((movie) => (
                     <div key={movie.id} className="movie-item" onClick={() => { loadMovie(movie.id) }}>
@@ -78,6 +72,16 @@ function GenreView() {
                     </div>
                 ))}
             </div>
+            {page < totalPages && (
+                <div className="genre-buttons">
+                    <button className="page-button" onClick={previousPage}>
+                        Previous Page
+                    </button>
+                    <button className="page-button" onClick={nextPage}>
+                        Next Page
+                    </button>
+                </div>
+            )}
         </div>
     )
 }
