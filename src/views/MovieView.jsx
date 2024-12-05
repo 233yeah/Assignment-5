@@ -10,10 +10,10 @@ function MovieView() {
         { id: 12, genre: 'Adventure' },
         { id: 16, genre: 'Animation' },
         { id: 80, genre: 'Comedy' },
-        { id: 18, genre: 'Drama' },
-        { id: 36, genre: 'Horror' },
+        { id: 10751, genre: 'Family' },
+        { id: 27, genre: 'Horror' },
         { id: 9648, genre: 'Mystery' },
-        { id: 10749, genre: 'Romance' },
+        { id: 10402, genre: 'Music' },
         { id: 53, genre: 'Thriller' },
         { id: 37, genre: 'Western' }
       ];

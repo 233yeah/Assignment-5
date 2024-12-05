@@ -14,10 +14,10 @@ function GenreView() {
         12: "Adventure",
         16: "Animation",
         80: "Comedy",
-        18: "Drama",
-        36: "Horror",
+        10751: "Family",
+        27: "Horror",
         9648: "Mystery",
-        10749: "Romance",
+        10402: "Music",
         53: "Thriller",
         37: "Western",
     };
